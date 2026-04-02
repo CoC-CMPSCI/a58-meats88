@@ -16,6 +16,10 @@ ifs >> num;
 cout << "first line: " << num << endl;
 ifs >> num;
 cout << "second word: " << sname << endl;
+ifs >> num;
+cout << "second line 2nd word: " << num << endl;
+ifs >> num;
+cout << "second line 3rd word: " << num << endl;
     // TODO: check if file opened successfully; print error and exit if not
 
     // TODO: read M from ifs, print "Total M students"
