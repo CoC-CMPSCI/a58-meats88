@@ -7,11 +7,15 @@ int main()
 {
     int M;
     double score1, score2, sum, avg;
-    string stuName;
+    string sname;
     ifstream ifs;
 
     // TODO: open "students.txt" for reading
-
+ifs.open("students.txt");
+ifs >> num;
+cout << "first line: " << num << endl;
+ifs >> num;
+cout << "second word: " << sname << endl;
     // TODO: check if file opened successfully; print error and exit if not
 
     // TODO: read M from ifs, print "Total M students"

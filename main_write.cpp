@@ -11,7 +11,7 @@ int main()
     ofstream ofs;
 
     // TODO: open "students.txt" for writing
-
+ofs.open("students.txt");
     // TODO: check if file opened successfully; print error and exit if not
 
     cout << "Enter the total number of students:";
